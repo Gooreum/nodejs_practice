@@ -1,0 +1,7 @@
+Returns the contents of the path.
+
+For detailed information, see the documentation of the asynchronous version of this API: fs.readFile().
+
+If the encoding option is specified then this function returns a string. Otherwise it returns a buffer.
+
+Similar to fs.readFile(), when the path is a directory, the behavior of fs.readFileSync() is platform-specific.
